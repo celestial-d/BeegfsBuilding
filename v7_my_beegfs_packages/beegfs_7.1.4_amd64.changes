@@ -1,0 +1,122 @@
+Format: 1.8
+Date: Thu, 01 Jan 1970 01:00:00 +0100
+Source: beegfs
+Binary: libbeegfs-ib beegfs-common beegfs-helperd beegfs-helperd-dbg beegfs-meta beegfs-meta-dbg beegfs-storage beegfs-storage-dbg beegfs-mgmtd beegfs-mgmtd-dbg beegfs-mon beegfs-mon-dbg beegfs-mon-grafana beegfs-admon beegfs-admon-dbg beegfs-mirror-md beegfs-mirror-md-dbg beegfs-utils beegfs-utils-dbg beegfs-utils-dev beeond-thirdparty-gpl beeond beegfs-client beegfs-client-dkms beegfs-client-compat beegfs-client-dev
+Architecture: amd64 all
+Version: 19:7.1.4
+Distribution: unstable
+Urgency: low
+Maintainer: BeeGFS Maintainers <packages@beegfs.com>
+Changed-By: BeeGFS Maintainers <packages@beegfs.com>
+Description:
+ beegfs-admon - BeeGFS admon daemon and java frontend.
+ beegfs-admon-dbg - debugging symbols for beegfs-admon
+ beegfs-client - BeeGFS client
+ beegfs-client-compat - BeeGFS client compat module, allows one to run two different clie
+ beegfs-client-dev - BeeGFS client development files
+ beegfs-client-dkms - BeeGFS client (DKMS version)
+ beegfs-common - BeeGFS common files
+ beegfs-helperd - BeeGFS helper daemon
+ beegfs-helperd-dbg - debugging symbols for beegfs-helperd
+ beegfs-meta - BeeGFS metadata server daemon
+ beegfs-meta-dbg - debugging symbols for beegfs-meta
+ beegfs-mgmtd - BeeGFS management server daemon
+ beegfs-mgmtd-dbg - debugging symbols for beegfs-mgmtd
+ beegfs-mirror-md - BeeGFS metadata mirroring utility
+ beegfs-mirror-md-dbg - debugging symbols for beegfs-mirror-md
+ beegfs-mon - BeeGFS mon daemon
+ beegfs-mon-dbg - debugging symbols for beegfs-mon
+ beegfs-mon-grafana - BeeGFS mon dashboards for Grafana
+ beegfs-storage - BeeGFS storage server daemon
+ beegfs-storage-dbg - debugging symbols for beegfs-storage
+ beegfs-utils - BeeGFS utils
+ beegfs-utils-dbg - debugging symbols for beegfs-utils
+ beegfs-utils-dev - BeeGFS utils devel files
+ beeond     - BeeOND
+ beeond-thirdparty-gpl - BeeOND thirdparty utilities (GPL licensed)
+ libbeegfs-ib - BeeGFS InfiniBand support
+Changes:
+ beegfs (19:7.1.4) unstable; urgency=low
+ .
+   * please see http://www.beegfs.com for changelog
+Checksums-Sha1:
+ ebb7eebe2549bd2ac31cbd8bd7470cac4e322e58 13722224 beegfs-admon-dbg_7.1.4_amd64.deb
+ b4191af4db9c1ae5e4695d0e50f40d4d8a9c049f 2104652 beegfs-admon_7.1.4_amd64.deb
+ 7c52019945f2b7084c7656f8be719ecb33449f9f 301382 beegfs-client-compat_7.1.4_all.deb
+ 3ae33595f117377d35167ed48bc0506385c3938e 3742 beegfs-client-dev_7.1.4_amd64.deb
+ 9bbb38c89d54b8f4d661ea21f4daba07bdb4ba0d 313592 beegfs-client-dkms_7.1.4_all.deb
+ 081279207be782f2ad8b2f197af9ceba2a82df98 314056 beegfs-client_7.1.4_all.deb
+ 3f18b5a04871988ac3969be9c70f6bd24dbffbc9 9998 beegfs-common_7.1.4_amd64.deb
+ 5a81fdc7869eef1ca730e39bd1c1cdff2c0fde3b 6010970 beegfs-helperd-dbg_7.1.4_amd64.deb
+ 99f965e9f1cfaa6925f5a8d21fc3810074d97ad2 322406 beegfs-helperd_7.1.4_amd64.deb
+ 0a41da0416334625b0cd3b3a22c669f0048dfe05 39949620 beegfs-meta-dbg_7.1.4_amd64.deb
+ 1a6e98903ec183df5dc68f7b207889c201ec3372 1253362 beegfs-meta_7.1.4_amd64.deb
+ 68b9374dd37a5014737f87e51c650025527897a8 15861470 beegfs-mgmtd-dbg_7.1.4_amd64.deb
+ bb451b186b2a8a5c2d97149007714449731c7bc9 641852 beegfs-mgmtd_7.1.4_amd64.deb
+ 7e598bdf201b1fbe9e906b577bd853a922aa576d 424546 beegfs-mirror-md-dbg_7.1.4_amd64.deb
+ 1369655e5efa7d90c5eb3f921e7838a5c3672dea 18980 beegfs-mirror-md_7.1.4_amd64.deb
+ 6a2f4fbf82ae0009b46d33614f8c1fa9b7833966 9178212 beegfs-mon-dbg_7.1.4_amd64.deb
+ 109b20edcb373fbf31786016e5f216e5b412e7fd 8550 beegfs-mon-grafana_7.1.4_all.deb
+ ecabdebb103350388a6309da2042346375466547 432748 beegfs-mon_7.1.4_amd64.deb
+ a474c578b9e94927c5a54449945b334dc355b1d0 20112432 beegfs-storage-dbg_7.1.4_amd64.deb
+ 7f09f7ce3e47f818ff0f36096170387bdb0b52ee 773700 beegfs-storage_7.1.4_amd64.deb
+ 16f1f9f194a0d061fb1754fffb514c62f8b2bf3a 34512288 beegfs-utils-dbg_7.1.4_amd64.deb
+ a52a7462a60b417d6b8a1de4580221f6f5c7dcc4 7576 beegfs-utils-dev_7.1.4_amd64.deb
+ b150456ea4eb1dd9a1adfd61c07769fc55bd8566 1241430 beegfs-utils_7.1.4_amd64.deb
+ 1792caf9cde7b173a464274e2bfd81308553fe20 64736 beeond-thirdparty-gpl_7.1.4_amd64.deb
+ 837b33d10a5de7b91e29c6417d1c9514922f2d96 20068 beeond_7.1.4_amd64.deb
+ 89b5fd7df96cf5ba4e99c160781df1c9f657af62 389554 libbeegfs-ib_7.1.4_amd64.deb
+Checksums-Sha256:
+ ea2b4324d252b2d45a096a0e360b13e9eb3abf6e71f17e80481126a851c6e2e2 13722224 beegfs-admon-dbg_7.1.4_amd64.deb
+ 0181b9c958d4b0ac350b5a49054ed961ec4dd9e8d097b699c779dc4bc6e80445 2104652 beegfs-admon_7.1.4_amd64.deb
+ f59b9f51350967d9da787312f8943434136df4333d336ea707818e15880d6026 301382 beegfs-client-compat_7.1.4_all.deb
+ 0c7e5171e7d37f09f3fbe7ce3472db60d75d894df69bb246a160229d4c9983ad 3742 beegfs-client-dev_7.1.4_amd64.deb
+ 9a6afa4e789853b26fbd977382093e2fbdb245d1860895de8705e31d2af7641f 313592 beegfs-client-dkms_7.1.4_all.deb
+ 91d7da6fb569424211381a12d01486b13d0e69ec7186dc307620a3dced9d7e46 314056 beegfs-client_7.1.4_all.deb
+ 2eb305907df802d63309618270fa1394d283bf37b275748888d0f374cd6e61c8 9998 beegfs-common_7.1.4_amd64.deb
+ 9a887babf7a400a791f133a4376955b75db2cfb51e59fbe58559c87d0d0c4e99 6010970 beegfs-helperd-dbg_7.1.4_amd64.deb
+ 4147350acb861a814db12cad746f3a2bbffa2f21ed48901f6a504a172853aa4a 322406 beegfs-helperd_7.1.4_amd64.deb
+ 4b1fe0be5588eed35f22e8d424ad13869db9f6834b43f7aa8ce16839a40a089c 39949620 beegfs-meta-dbg_7.1.4_amd64.deb
+ 956e3ce2b574d3d6c10c2469e1ebd26bdc92e23f2de42a5d1e78562aaa735e11 1253362 beegfs-meta_7.1.4_amd64.deb
+ 3efce952e87f20830fc22709c187e9f35c31c1735219221d30f0b102f34aa7d5 15861470 beegfs-mgmtd-dbg_7.1.4_amd64.deb
+ 1c3e60cac8a0c1567638242d352054a13d0e78807028ad31fcb8c1c017f9ff48 641852 beegfs-mgmtd_7.1.4_amd64.deb
+ d1bdcebe31ca0bcc68b3f4a6305faa337c860e054819923185c7b28c7e869121 424546 beegfs-mirror-md-dbg_7.1.4_amd64.deb
+ be56b8e9d88b05e04743048c13c54b0566ef429440f6643b32fefdc47e959c28 18980 beegfs-mirror-md_7.1.4_amd64.deb
+ e141f2e451b5ef841869fbe6e041853b28938abcb77c13c19a106895b73b0b44 9178212 beegfs-mon-dbg_7.1.4_amd64.deb
+ 6bfa4b98c0505ec662cc2bf97fc9f0c0104f6a61b47020f33cacc0c61db732c7 8550 beegfs-mon-grafana_7.1.4_all.deb
+ 309ce4555c7eed2c9a403d2839be7f37c2a6216e964cd95bd03bba1a84466580 432748 beegfs-mon_7.1.4_amd64.deb
+ 8fbe3a16d80f5eeedd61f41241b96006f96647a87231ee1c01ea12d10ae14217 20112432 beegfs-storage-dbg_7.1.4_amd64.deb
+ 3aa254a2bd13f91e89a1d78d4d23495b9d7b0a8453c7481cb9374f8e673a5c94 773700 beegfs-storage_7.1.4_amd64.deb
+ fd9879178d064f747967a5f7512970e7288a38f15c3e1b543e866389ccd7981a 34512288 beegfs-utils-dbg_7.1.4_amd64.deb
+ 34a8e9af9f669e3377046e437b48b742c8868210c32c6d40c2a36248f16638f0 7576 beegfs-utils-dev_7.1.4_amd64.deb
+ 1943ea8800fa41c5b164cd8e72d4e853b2e757c4a212b423d52d2b8c3dc5ed40 1241430 beegfs-utils_7.1.4_amd64.deb
+ c17ff6f99562fbac4de8e10f3ba8935ed1a3baf68d5612a2b4c5afec2a9c6ca0 64736 beeond-thirdparty-gpl_7.1.4_amd64.deb
+ 29413aa91187f843e58ebf184f747036ba461e200a8b45ff33b5d357da65cc05 20068 beeond_7.1.4_amd64.deb
+ 91148ff9139a9feec79ca4f13a95a65640f5041b8292b14321b5b147aaa54e63 389554 libbeegfs-ib_7.1.4_amd64.deb
+Files:
+ 1d650a983b4b2621b2cd8a08ee66cf46 13722224 debug extra beegfs-admon-dbg_7.1.4_amd64.deb
+ 5accbb7f264bf893fc3842d4d1c111a1 2104652 misc optional beegfs-admon_7.1.4_amd64.deb
+ 58caa573e2c39e2b2ef1f855573be2d5 301382 misc optional beegfs-client-compat_7.1.4_all.deb
+ 35031010827b21e7fd726d5d8ef49581 3742 misc optional beegfs-client-dev_7.1.4_amd64.deb
+ f04308a60ce74e96c38089c24ec8d368 313592 misc optional beegfs-client-dkms_7.1.4_all.deb
+ 76336aa64a2fa267e80e1373e6fa4859 314056 misc optional beegfs-client_7.1.4_all.deb
+ 7cb6356ae8b7442446c75e2494907ed7 9998 misc optional beegfs-common_7.1.4_amd64.deb
+ 621998bd174a3692af05ee052539aeee 6010970 debug extra beegfs-helperd-dbg_7.1.4_amd64.deb
+ 6ee9c478beb6eb48e666c98f81a1102a 322406 misc optional beegfs-helperd_7.1.4_amd64.deb
+ 1ffd9c9f33519ec3738a161cbc1e23d6 39949620 debug extra beegfs-meta-dbg_7.1.4_amd64.deb
+ e0351da86580f3017142d43704ab3ce1 1253362 misc optional beegfs-meta_7.1.4_amd64.deb
+ fd224b167aa9e1f127df5c887b7f6c7d 15861470 debug extra beegfs-mgmtd-dbg_7.1.4_amd64.deb
+ ac684e059e1d60efffc52464bd4fb3e3 641852 misc optional beegfs-mgmtd_7.1.4_amd64.deb
+ 8b520d45a3105ca56559e6096cd1bb79 424546 debug extra beegfs-mirror-md-dbg_7.1.4_amd64.deb
+ 7133f7aefb427cd89ea477d5bb858bf7 18980 misc optional beegfs-mirror-md_7.1.4_amd64.deb
+ 1331b9d7debe3b226e1a9078f951bcb5 9178212 debug extra beegfs-mon-dbg_7.1.4_amd64.deb
+ 0806c80a7e6eed7a45007c8e451941d0 8550 misc optional beegfs-mon-grafana_7.1.4_all.deb
+ 6a696014260fecc88ecbbedf0cdb4edd 432748 misc optional beegfs-mon_7.1.4_amd64.deb
+ c6944590c492290cad74d2b21ef3324f 20112432 debug extra beegfs-storage-dbg_7.1.4_amd64.deb
+ 682a3937393a790881cab23ea3217176 773700 misc optional beegfs-storage_7.1.4_amd64.deb
+ a2152e5173992a68c031b0c1e1f86248 34512288 debug extra beegfs-utils-dbg_7.1.4_amd64.deb
+ 9dc4ab8fc4e9d225c630ca1e022101d7 7576 misc optional beegfs-utils-dev_7.1.4_amd64.deb
+ 8276670c3e63c5280660e6c51b6db77f 1241430 misc optional beegfs-utils_7.1.4_amd64.deb
+ 9eb50e898fc79b3686ceac61480077d0 64736 misc optional beeond-thirdparty-gpl_7.1.4_amd64.deb
+ bf7a49f5e37c16168e16d0b0c694afff 20068 misc optional beeond_7.1.4_amd64.deb
+ 1b9216eef66d1c2f2614eb2e8b37597e 389554 misc optional libbeegfs-ib_7.1.4_amd64.deb
