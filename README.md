@@ -1,6 +1,9 @@
 # BeegfsBuilding
 
-#The repo is used for beegfs installation.
+The repo is used for beegfs installation and deployment in VMware workstation and AWS EC2, and we performed fault injection-based taxonomy. Detailed results can be found in our paper:
+
+- "[Fingerprinting the checker policies of parallel file systems](https://ieeexplore.ieee.org/abstract/document/9307050)",Runzhou Han, Duo Zhang, Mai Zheng,IEEE/ACM Fifth International Parallel Data Systems Workshop (PDSW), 2020
+
 #The repo contains all installation package of ubuntu16.04 wihh kernel 4.15.0-91-generic
 
 Management Service   your ip:130.127.133.212 
